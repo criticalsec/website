@@ -1,0 +1,167 @@
+.logo{
+    margin: 0 auto;
+}
+.time-name{
+    font-size: 16px;
+}
+.timerbody{
+    font-size: 23px !important;
+}
+.glass-success{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(206, 255, 245, 0.48);
+    color: #FFF;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.glass-error{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(247, 128, 128, 0.47);
+    color: rgba(255, 255, 255, 0.98);
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#ign-subscribe-btn{
+    height: 40px;
+    margin-top: 5px;
+}
+#cs_email{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+.ign-hidden-on-load{
+    display: none;
+}
+.glasspro-notification{
+    padding: 0px 10px 0px 10px;
+}
+.glass-wrapper{
+    background-color: rgba( 0, 0, 0, 0.522 );
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.27);
+    margin: 100px 20px 30px;
+    padding: 30px 80px;
+}
+.no-margin{
+    margin: 0px -10px 0px -10px !important;
+    padding: 0px 0px 0px 0px !important;
+}
+.glass-wrapper h2{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 35px;
+}
+.glass-wrapper p{
+    font-family: "Open Sans";
+    font-weight: 200;
+    font-size: 16px;
+}
+.glass-wrapper ul{
+    font-family: "Open Sans";
+    font-weight: 200;
+    font-size: 16px;
+}
+#powered-by{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+}
+.glass-wrapper .social-icon {
+    font-size: 50px;
+    margin: 0 auto;
+    list-style: none;
+    display: table;
+    padding: 0;
+}
+.glass-wrapper .btn-helpers{
+
+}
+.glass-wrapper .social-icon>li{
+    display: inline;
+    margin-right: 15px; 
+}
+.glass-wrapper .social-icon>li:last-child{
+    margin-right: 0;
+}
+.glass-wrapper .social-icon>li>a:hover{
+    text-decoration: none;
+}
+.form-control {
+    background: rgba(255, 255, 255, 0.14);
+    margin: 5px 0;
+    border-radius: 0;
+    height: 40px;
+    color: #fff;
+}
+.form-control::-webkit-input-placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+    color: rgba(255,255,255,0.5); 
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+    color: rgba(255,255,255,0.5);
+}
+
+.form-control:-ms-input-placeholder {  
+    color: rgba(255,255,255,0.5); 
+}
+.timerbody{
+    font-size: 30px !important;
+}
+.subscribe{
+    margin-bottom: 10px;
+}
+#ign-subscribe-btn{
+    background: rgba(255, 255, 255, 0.49);
+    border-radius: 0;
+    border: 1px solid rgba(255, 255, 255, 0.49);
+    color: #fff;
+    height: 40px;
+    margin: 5px 0;
+    border-left: 0;
+}
+#ign-subscribe-btn:hover{
+    background: rgba(255, 255, 255, 0.69);
+    color:#666;
+}
+.logo {
+    max-height: 120px;
+}
+#mute-btn{
+    position: absolute;
+}
+
+.pg-canvas{
+    position: fixed;
+    height: 100%;
+}
+.snow-canvas{width: 100% !important;position: fixed;}
+
+@media(max-width:768px){
+    #background-wrapper canvas{
+        position: absolute;
+    }
+}
+@media (max-width:768px){
+    .glass-wrapper p{
+        font-size: 16px;
+        text-align:center;
+    }
+    .glass-wrapper{        
+        margin: 50px 0;
+    }
+    .glass-wrapper h2{
+        font-size: 30px;
+    }
+}
+.position-absolute{
+    position: absolute !important;
+}
+.body-snow{
+    position: relative;
+    overflow-x: hidden;
+}
