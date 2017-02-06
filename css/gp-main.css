@@ -57,11 +57,20 @@
     font-weight: 200;
     font-size: 16px;
 }
-.glass-
 .glass-wrapper ul{
     font-family: "Open Sans";
     font-weight: 200;
     font-size: 16px;
+    padding-left: 20px;
+}
+.glass-wrapper .list-unstyled{
+    font-family: "Open Sans";
+    font-weight: 200;
+    font-size: 16px;
+    padding-left: 0;
+}
+.glass-wrapper .list-unstyled li{
+    margin: 5px 0;
 }
 #powered-by{
     font-family: "Open Sans";
